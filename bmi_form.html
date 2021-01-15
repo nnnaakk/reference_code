@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI値を求める</title>
+</head>
+<body>
+    <h1>BMI値を求める(送信)</h1>
+    <p>身長・体重を入力して、送信ボタンを押してください。</p>
+    <form action="bmi_receive.php" method="get">
+        <table>
+
+            <tr>
+                <th>身長</th>
+                <td><input type="text" name="height"></td>
+            </tr>
+
+            <tr>
+                <th>体重</th>
+                <td><input type="text" name="weight"></td>
+            </tr>
+        </table>
+
+        <div>
+            <input type="submit" value="送信">
+
+        </div>
+
+    </form>
+</body>
+</html>
